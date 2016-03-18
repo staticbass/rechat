@@ -2,7 +2,6 @@
   "name": "rechat",
   "version": "0.0.13",
   "description": "react socket chat app",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +10,9 @@
     "socket.io",
     "react"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/staticbass/rechat.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/staticbass/rechat.git"
   },
   "author": "staticbass",
   "license": "ISC",
@@ -21,7 +20,7 @@
     "react": "^0.14.7",
     "react-bootstrap": "^0.28.3",
     "react-dom": "^0.14.7",
-    "socket.io": "^1.4.5",
+    "socket.io": "^1.4.5"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",
