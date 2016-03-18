@@ -48,7 +48,7 @@ var app = express();
 var server = htpp.createServer(app);
 
 var options = {
-  storage: [] // you hav to pass array for storing messages
+  storage: [] // you have to pass array for storing messages
 };
 
 chat.connect(server, options)
