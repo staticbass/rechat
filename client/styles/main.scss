@@ -1,0 +1,48 @@
+
+.chat-component {
+
+  min-height: 400px;
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .chat-window-component {
+    .messages-container {
+      min-height: 200px;
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+    }
+
+    .message {
+      padding: 4px 15px;
+      max-width: 60%;
+      float: right;
+      word-wrap: break-word;
+    }
+
+    .message.own {
+      float: left;
+    }
+
+    .menu-bar-component {
+      .dropdown {
+        float: right;
+      }
+      .dropdown-menu {
+        right: 0;
+        left: auto;
+      }
+    }
+  }
+
+}
